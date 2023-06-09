@@ -165,6 +165,7 @@ a:active {
 
 .find-main {
     display: flex;
+    flex-direction: column;
     width: 100%;
     margin: auto;
     max-width: 1000px;
@@ -177,4 +178,24 @@ a:active {
     /* max-width: 100%; */
     padding-top: 20px;
     padding-bottom: 60px;
+}
+
+.find-criteria {
+    min-height: 400px;
+    background-color: rgb(234, 234, 234);
+    max-width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.find-input {
+    margin-right: 20px;
+    padding-bottom: 21px;
+}
+
+.find-input-label {
+    margin-bottom: 7px;
 }
