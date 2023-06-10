@@ -255,6 +255,7 @@ a:active {
     border: 1px solid #ccc;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
+    border-radius: 2px;
 }
 
 .find-input-select option {
@@ -277,6 +278,7 @@ a:active {
 
 .find-content {
     padding: 52px 0 0 0;
+    
 }
 
 .find-content-head {
@@ -284,5 +286,7 @@ a:active {
 }
 
 .find-content-head-countAdsAndSort {
-
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between;
 }
