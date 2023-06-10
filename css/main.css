@@ -1,6 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -36,7 +37,8 @@ a:active {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    width: 1000px;
+    max-width: 1000px;
+    width: 100%;
     padding: 0 10px;
 }
 
@@ -92,7 +94,7 @@ a:active {
   appearance: none;
   background-color: #2ea44f;
   border: 1px solid rgba(27, 31, 35, .15);
-  border-radius: 6px;
+  border-radius: 42px;
   box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
   box-sizing: border-box;
   color: #fff;
@@ -182,10 +184,12 @@ a:active {
     flex-direction: column;
     /* max-width: 100%; */
     padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
     padding-bottom: 60px;
     /* height: 600px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .find-criteria {
@@ -197,7 +201,7 @@ a:active {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 0 20px 0 20px;
+    /* margin: 0 20px 0 20px; */
 }
 
 .find-input {
@@ -205,7 +209,7 @@ a:active {
     padding-bottom: 21px; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
-    width: 40%;
+    width: 45%;
     margin-left: 12px;
     margin-bottom: 12px;
     margin-right: 20px;
@@ -229,6 +233,20 @@ a:active {
     padding: 20px 20px;
 }
 
+.find-button-clear {
+    display: flex;
+    align-items: center;
+}
+
+.find-button-clear-btn {
+    margin: 0 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: rgb(140, 150, 157);
+    border-bottom: 1px dashed;
+    cursor: pointer;
+}
+
 .find-input-select {
     height: 34px;
     /* padding: 0 9px; */
@@ -249,8 +267,22 @@ a:active {
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
+    width: 100%;
+    margin-left: 12px;
 }
 
 .find-input-div div {
     margin: 0 0 0 5px;
+}
+
+.find-content {
+    padding: 52px 0 0 0;
+}
+
+.find-content-head {
+
+}
+
+.find-content-head-countAdsAndSort {
+
 }

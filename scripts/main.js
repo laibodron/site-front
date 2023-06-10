@@ -1,1 +1,1 @@
-console.log("zxc");
+console.log("main.js loaded successufy");
