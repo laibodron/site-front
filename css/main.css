@@ -297,9 +297,9 @@ a:active {
 
 } */
 
-.find-content-listCards {
+/* .find-content-listCards {
 
-}
+} */
 
 .find-content-card {
     padding: 7px;
@@ -323,4 +323,70 @@ a:active {
 .find-content-card-description {
     margin: 0 0 0 16px;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.find-content-card-description-nameYearDriverCostCityFavourite {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.find-content-card-description-nameYearDriver {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.find-content-card-description-nameYear {
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-content-card-description-name {
+
+}
+
+.find-content-card-description-year {
+
+}
+
+.find-content-card-description-driver {
+
+}
+
+.find-content-card-description-costCityFavourite {
+    min-width: 170px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.find-content-card-description-cost {
+    
+}
+
+.find-content-card-description-city {
+
+}
+
+.find-content-card-description-favourite {
+
+}
+
+.find-content-card-description-ownerDate {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.find-content-card-description-owner {
+
+}
+
+.find-content-card-description-date {
+
 }
