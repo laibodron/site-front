@@ -298,7 +298,7 @@ a:active {
 } */
 
 /* .find-content-listCards {
-
+    
 } */
 
 .find-content-card {
@@ -323,8 +323,11 @@ a:active {
 .find-content-card-description {
     margin: 0 0 0 16px;
     width: 100%;
+    /* height: 100%; */
     display: flex;
     flex-wrap: wrap;
+    align-content: space-between;
+    color: rgb(57, 68, 79);
 }
 
 .find-content-card-description-nameYearDriverCostCityFavourite {
@@ -346,15 +349,32 @@ a:active {
 }
 
 .find-content-card-description-name {
+    
+}
 
+.find-content-card-description-name-first {
+    margin: 0 6px 0 0;
+    font-weight: bold;
+}
+
+.find-content-card-description-name-second {
+    font-size: 14px;
+    color: rgb(140, 150, 157);
+    font-weight: normal;
+    text-transform: capitalize;
 }
 
 .find-content-card-description-year {
-
+    font-size: 14px;
+    
 }
 
-.find-content-card-description-driver {
-
+.find-content-card-description-driver span{
+    color: rgb(71, 140, 200);
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-size: 11px;
+    background: rgb(232, 244, 255);
 }
 
 .find-content-card-description-costCityFavourite {
@@ -365,15 +385,17 @@ a:active {
 }
 
 .find-content-card-description-cost {
-    
+    font-weight: bold;
 }
 
 .find-content-card-description-city {
-
+    margin-top: 8px;
+    font-size: 12px;
 }
 
 .find-content-card-description-favourite {
-
+    font-size: 12px;
+    margin-top: 6px;
 }
 
 .find-content-card-description-ownerDate {
@@ -381,12 +403,40 @@ a:active {
     display: flex;
     justify-content: space-between;
     height: fit-content;
+    align-items: flex-end
 }
 
-.find-content-card-description-owner {
-
+.find-content-card-description-owner a {
+    color: #478cc8;
+    cursor: pointer;
+    font-size: 12px;
 }
 
 .find-content-card-description-date {
+    margin-right: 8px;
+    opacity: 0.5;
+    font-size: 12px;
+}
 
+.find-pagination {
+    padding: 17px 0 0 7px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 0 54px 0;
+}
+
+.find-pagination input {
+    width: fit-content;
+    line-height: 17px;
+    width: 30px;
+    height: 17px;
+    border-radius: 2px;
+    appearance: none;
+}
+
+.find-pagination span {
+    color: rgba(57,68,79,.4);
+    font-size: 14px;
+    margin: 0 8px 0 8px;
 }
