@@ -192,12 +192,28 @@ a:active {
 
 }
 
+.find-addAds {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.find-addAds button {
+    border: 0;
+    padding: 7px 12px;
+    border-radius: 8px 8px 0 0;
+    cursor: pointer;
+    background: rgb(232, 244, 255);
+    height: 43px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
 .find-criteria {
     /* min-height: 400px; */
     background-color: rgb(234, 234, 234);
     /* max-width: 100%; */
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -278,7 +294,6 @@ a:active {
 
 .find-content {
     padding: 52px 0 0 0;
-    
 }
 
 .find-content-head {
@@ -348,9 +363,9 @@ a:active {
     justify-content: space-between;
 }
 
-.find-content-card-description-name {
+/* .find-content-card-description-name {
     
-}
+} */
 
 .find-content-card-description-name-first {
     margin: 0 6px 0 0;
@@ -439,4 +454,118 @@ a:active {
     color: rgba(57,68,79,.4);
     font-size: 14px;
     margin: 0 8px 0 8px;
+}
+
+.adding-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    max-width: 1000px;
+    min-height: 100%;
+    
+}
+
+.adding-main-head {
+    margin: 40px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end
+}
+
+.adding-main-head-title {
+    font-size: 34px;
+}
+
+.adding-main-head-btnClear {
+    /* display: flex; */
+}
+
+.adding-main-head-btnClear button {
+    padding: 7px 20px;
+    height: 28px;
+    line-height: 12px;
+    font-size: 11px;
+    border-width: 1px;
+    border: 1px solid #478cc8;
+    vertical-align: middle;
+    border-radius: 42px;
+    color: #478cc8;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.adding-main-containers {
+    width: 100%;
+}
+
+.adding-main-containers-cont {
+    margin: 10px 0 0 0;
+    font-size: 12px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    background-color: #ffffff;
+    padding: 18px 25px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.adding-body {
+    background-color: rgb(241, 241, 241);
+}
+
+.adding-main-containers-cont-header {
+    color: rgb(184, 184, 184);
+    font-size: 16px;
+    padding: 0 0 12px 0;
+}
+
+.adding-main-containers-cont-include select {
+    height: 34px;
+    margin: 0;
+    border: 1px solid #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    border-radius: 2px;
+    width: 210px;
+}
+
+.adding-main-containers-cont-include {
+    display: flex;
+    margin: 16px 0;
+    padding: 0 24px;
+}
+
+.adding-main-containers-cont-include-charName {
+    min-width: 128px;
+}
+
+.adding-main-containers-cont-include-charValue {
+    display: flex;
+    flex-direction: column;
+}
+
+.adding-main-containers-cont-include-charValue div {
+    display: flex;
+    
+}
+
+.adding-main-containers-cont-include-charValue div input {
+    margin: 0 8px 8px 0;
+}
+
+.redStar {
+    color: #d0021b;
+    font-size: 14px;
+}
+
+.adding-main-btnSubmit {
+    margin: 25px 0 50px 0;
+    padding: 15px 28px;
+    background-color: #478cc8;
+    color: #fff;
+    border-radius: 42px;
+    cursor: pointer;
+    border: 1px solid #478cc8;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
