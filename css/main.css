@@ -477,9 +477,9 @@ a:active {
     font-size: 34px;
 }
 
-.adding-main-head-btnClear {
-    /* display: flex; */
-}
+/* .adding-main-head-btnClear {
+    display: flex;
+} */
 
 .adding-main-head-btnClear button {
     padding: 7px 20px;
