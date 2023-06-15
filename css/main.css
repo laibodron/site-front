@@ -592,6 +592,7 @@ a:active {
     /* padding-top: 20px; */
     margin: 20px 0;
     /* height: 100%; */
+    color: #39444f;
 }
 
 .profile-main-container {
@@ -612,4 +613,48 @@ a:active {
 
 .profile-main-container-head b {
     font-size: 30px;
+    margin: 0 0 32px 0;
+}
+
+.profile-main-container-blocks {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-main-container-blocks-avatar {
+    max-width: 200px;
+    /* width: fit-content; */
+    margin: 0 50px;
+    margin: 0 70px 12px 0;
+}
+
+.profile-main-container-blocks-avatar div {
+    margin: 0 0 12px 0;
+}
+
+.profile-main-container-blocks img {
+    width: 100%;
+}
+
+.profile-main-container-blocks-inputs-input {
+    margin: 12px 0 0 0;
+}
+
+.profile-main-container-blocks-inputs-input h5 {
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 8px 0;
+    
+}
+
+.profile-main-container-blocks-inputs-input input {
+    height: 30px;
+    width: 300px;
+}
+
+.profile-main-container-blocks-inputs-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 37px 0 0 0;
 }
