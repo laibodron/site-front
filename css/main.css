@@ -42,6 +42,14 @@ a:active {
     padding: 0 10px;
 }
 
+.header-button img {
+    height: 24px;
+}
+
+.header-button a {
+    height: 100%;
+}
+
 .logo {
     max-height: 52px;
     /* width: 100px; */
@@ -72,6 +80,12 @@ a:active {
     height: 100%;
     align-items: center;
     color: #1f6bb8;
+}
+
+.header-button a {
+    display: flex;
+    height: 100%;
+    align-items: center;
 }
 
 /* .header-button a:hover {
@@ -568,4 +582,34 @@ a:active {
     border: 1px solid #478cc8;
     font-size: 11px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.profile-main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding-top: 20px; */
+    margin: 20px 0;
+    /* height: 100%; */
+}
+
+.profile-main-container {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    height: 100%;
+    max-width: 1000px;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.profile-main-container-head {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.profile-main-container-head b {
+    font-size: 30px;
 }
