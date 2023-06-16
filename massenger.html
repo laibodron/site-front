@@ -7,13 +7,11 @@
     <title>Спецтехника</title>
 </head>
 <body>
-    <div class="header">
+    <div class="header borderBot">
         <div class="header-container">
             <a href="index.html" class="logo-link"><img src="images/linux-logo.svg" alt="logo" class="logo"></a>
             <div class="header-buttons">
-                <div class="header-button"><a href="#"><img src="images/icons/icon-message.svg" alt="messager" title="Сообщения"></a></div>
-                <div class="header-button"><a href="#"><img src="images/icons/icon-notification.svg" alt="notification" title="Уведомления"></a></div>
-                <div class="header-button"><a href="#"><img src="images/icons/icon-favorite-inactive.svg" alt="favorites" title="Избранное"></a></div>
+                <div class="header-button"><a href="massenger.html"><img src="images/icons/icon-message.svg" alt="messager" title="Сообщения"></a></div>
                 <div class="header-button"><a href="#">Мои объявления</a></div>
                 <div class="header-button"><a href="profile.html">Кабинет</a></div>
                 <div class="header-button"><a href="#"><img src="images/icons/icon-exit.svg" alt="Log out" title="Выход"></a></div>
@@ -21,15 +19,69 @@
         </div>
     </div>
 
-    <div class="main">
-        
-    </div>
-    
-    <div class="footer">
-        <div class="bottom">
-            2023 © ZXC.SU является юридически зарегистрированной торговой маркой.
+    <div class="msgr-main">
+        <div class="msgr-main-cntr">
+            
+            <div class="msgr-main-cntr-left">
+                <div class="msgr-main-cntr-left-chat chat-active">
+                    
+                    <div class="msgr-main-cntr-left-chat-avatar">
+                        <img src="images/pictures/truck1.jpg" alt="avatar">
+                    </div>
+
+                    <div class="msgr-main-cntr-left-chat-username">
+                        <div class="msgr-main-cntr-left-chat-username-name">
+                            Иванов Иван Иванович
+                        </div>
+
+                        <div class="msgr-main-cntr-left-chat-username-company">
+                            Иванова Маргарита Ивановна, ИП
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="msgr-main-cntr-right">
+                <div class="msgr-main-cntr-right-head">
+                    
+                    <div class="msgr-main-cntr-right-head-user">
+                        <div class="msgr-main-cntr-right-head-user-avatar">
+                            <img src="images/pictures/truck1.jpg" alt="avatar">
+                        </div>
+
+                        <div class="msgr-main-cntr-right-head-user-info">
+                            <div class="msgr-main-cntr-right-head-info-name">
+                                Иванов Иван Иванович
+                            </div>
+                            <div class="msgr-main-cntr-right-head-info-comp">
+                                <a href="">Иванова Маргарита Ивановна, ИП</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="msgr-main-cntr-right-head-3points">
+                        <svg viewBox="0 0 32 24" width="28px" height="28px" color="#8c969d" fill-rule="evenodd"><path fill="#8c969d" fill-rule="evenodd" d="M2 20a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm10 0a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm10 0a3 3 0 1 1 6 0 3 3 0 0 1-6 0z"></path></svg>
+                    </div>
+
+                </div>
+
+                <div class="msgr-main-cntr-right-msgInput">
+                    <svg viewBox="0 0 24 26" width="17" height="18" color="#8c969d" fill-rule="evenodd"><path fill="#8c969d" fill-rule="evenodd" d="M23.672 11.14a1.12 1.12 0 0 0-1.583 0l-6.416 6.416-3.876 3.876a5.598 5.598 0 1 1-7.918-7.917l.002-.002 3.876-3.875 3.253-3.253 3.161-3.162a3.358 3.358 0 1 1 4.75 4.75l-3.16 3.162-4.895 4.894-2.237 2.237a1.12 1.12 0 0 1-1.583-1.584l2.237-2.237 7.263-7.263a1.12 1.12 0 0 0-1.583-1.584l-9.5 9.501a3.359 3.359 0 1 0 4.75 4.75L20.506 9.557a5.598 5.598 0 1 0-7.917-7.917c-.002 0-.003.002-.004.003L2.3 11.928a7.838 7.838 0 0 0 11.08 11.088l10.292-10.292a1.12 1.12 0 0 0 0-1.584z"></path></svg>
+                    <input type="text" placeholder="написать сообщение">
+                    <button class="button-3" role="button">ОТПРАВИТЬ</button>
+                </div>
+
+            </div>
+
         </div>
     </div>
+    
+    <!-- <div class="footer">
+        <div class="bottom">            
+            2023 © ZXC.SU является юридически зарегистрированной торговой маркой.
+        </div>
+    </div> -->
 </body>
 <script src="scripts/main.js"></script>
 </html>
