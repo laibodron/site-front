@@ -8,6 +8,7 @@ body {
     /* display: flex; */
     flex-direction: column;
     justify-content: space-between;
+    /* width: 100%; */
 }
 
 a {
@@ -337,6 +338,11 @@ a:active {
     display: flex;
 }
 
+.find-content-card:hover {
+    cursor: pointer;
+    background-color: #e8f4ff;
+}
+
 .find-content-card-picture {
     min-width: 178px;
     width: 178px;
@@ -657,4 +663,199 @@ a:active {
     display: flex;
     justify-content: center;
     margin: 37px 0 0 0;
+}
+
+.adv-main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding-top: 20px; */
+    margin: 20px 0;
+    /* height: 100%; */
+    color: #39444f;
+}
+
+.adv-main-contnr {
+    height: 100%;
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px 10px 0 10px;
+}
+
+.adv-main-contnr-content {
+    display: flex;
+    
+}
+
+.adv-main-contnr-content-left {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    flex: 2 1 0%;
+}
+
+.adv-main-contnr-content-right {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    flex: 1 1 0px;
+    margin: 0 0 0 32px;
+}
+
+.adv-main-contnr-content-left-head {
+    width: 100%;
+    font-size: 34px;
+}
+
+.adv-main-contnr-content-right-head {
+    width: 100%;
+    font-size: 26px;
+}
+
+.adv-main-contnr-content-left-cCityFavourite {
+    margin: 20px 0 16px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.adv-main-contnr-content-left-city {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.adv-main-contnr-content-left-favourite {
+    font-size: 12px;
+    color: #478cc8;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.adv-main-contnr-content-left-favourite div {
+    border-bottom: 1px dotted #c6d7e6;
+}
+
+.adv-main-contnr-content-left-favourite div:hover {
+    border-bottom: 1px solid #71b1e8;
+}
+
+/* .adv-main-contnr-content-left-images {
+    width: 100%;
+} */
+
+.adv-main-contnr-content-left-images img {
+    width: 100%;
+}
+
+.adv-main-contnr-content-left-owner {
+    margin: 30px 0 0 0;
+    padding: 18px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.adv-main-contnr-content-left-owner-title {
+    font-size: 23px;
+}
+
+.adv-main-contnr-content-left-owner-firm {
+    font-size: 14px;
+    margin: 14px;
+    display: flex;
+}
+
+.adv-main-contnr-content-left-owner-firm-avatarInfo {
+    display: flex;
+}
+
+.adv-main-contnr-content-left-owner-firm-avatarInfo img {
+    /* width: 64px; */
+    /* width: 100%; */
+    height: 64px;
+}
+
+.adv-main-contnr-content-left-owner-firm-avatarInfo-info {
+    margin: 0 12px;
+}
+
+.adv-main-contnr-content-left-owner-firm-avatarInfo-info-name {
+
+}
+
+.adv-main-contnr-content-left-owner-firm-avatarInfo-info-name a {
+    color: #478cc8;
+}
+
+.adv-main-contnr-content-left-owner-firm-btnGetContact {
+    display: flex;
+    align-items: center;
+}
+
+.adv-main-contnr-content-left-owner-firm-btnGetContact  button{
+    height: fit-content;
+    width: fit-content;
+}
+
+.adv-main-contnr-content-left-description {
+    margin: 25px 0 45px 0;
+}
+
+.adv-main-contnr-content-left-description-title {
+    font-size: 26px;
+}
+
+.adv-main-contnr-content-left-description-text {
+    margin: 16px 0 0 0;
+    font-size: 14px;
+    white-space: pre-line;
+    word-break: break-word;
+}
+
+.adv-main-contnr-content-right-dateViews {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 16px 0;
+    color: #596e81;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.adv-main-contnr-content-right-charstable {
+    font-size: 14px;
+    padding: 24px 0px 12px;
+    /* max-width: 370px; */
+    margin-bottom: 16px;
+    background-color: rgb(237, 243, 249);
+    border-radius: 8px;
+}
+
+.adv-main-contnr-content-right-charstable-char {
+    padding: 0 24px;
+    display: flex;
+}
+
+.adv-main-contnr-content-right-charstable-char-name {
+    flex: 2 1 0;
+    opacity: 0.5;
+}
+
+.adv-main-contnr-content-right-charstable-char-value {
+    flex: 3 1 0;
+}
+
+.borderBot {
+    border-bottom: 1px solid rgba(56, 69, 79, 0.1);
+}
+
+.opacity05 {
+    opacity: 0.5;
+    display: inline;
+}
+
+.marginTop16Bot12 {
+    margin: 16px 0 12px 0;
 }
