@@ -43,6 +43,7 @@ a:active {
     padding: 0 10px;
 }
 
+
 .header-button img {
     height: 24px;
 }
@@ -51,8 +52,13 @@ a:active {
     height: 100%;
 }
 
+.logo-link {
+    height: 100%;
+}
+
 .logo {
     max-height: 52px;
+    height: 100%;
     /* width: 100px; */
 }
 
