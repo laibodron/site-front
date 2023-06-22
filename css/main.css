@@ -3,14 +3,12 @@ body, html {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 body {
     /* display: flex; */
     flex-direction: column;
     justify-content: space-between;
     /* width: 100%; */
 }
-
 a {
     margin: 0;
     color: #000000;
@@ -18,11 +16,9 @@ a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
-
 a:active {
     color: #000000;
 }
-
 .header {
     height: 52px;
     background-color: #ffffff;
@@ -32,7 +28,6 @@ a:active {
     box-shadow: 0 1px 4px 0 rgba(0,0,0,0.35);
     width: 100%;
 }
-
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -42,26 +37,20 @@ a:active {
     width: 100%;
     padding: 0 10px;
 }
-
-
 .header-button img {
     height: 24px;
 }
-
 .header-button a {
     height: 100%;
 }
-
 .logo-link {
     height: 100%;
 }
-
 .logo {
     max-height: 52px;
     height: 100%;
     /* width: 100px; */
 }
-
 .header-button {
     color: black;
     padding: 0 10px;
@@ -71,52 +60,36 @@ a:active {
     display: flex;
     align-items: center;
 }
-
 .header-button:hover {
     background-color: #e9f1fa;
     cursor: pointer;
 }
-
 .header-buttons {
     height: 100%;
     display: flex;
 }
-
 .header-button:hover a {
     display: flex;
     height: 100%;
     align-items: center;
     color: #1f6bb8;
 }
-
 .header-button a {
     display: flex;
     height: 100%;
     align-items: center;
 }
-
-/* .header-button a:hover {
-    color:#1f6bb8;
-} */
-
 .main {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* padding-top: 20px; */
     margin: 20px 0;
-    /* height: 100%; */
 }
-
 .main-buttons {
     display: flex;
-    /* height: fit-content; */
     align-items: center;
 }
-
-
-/* CSS button */
 .button-3 {
   appearance: none;
   background-color: #2ea44f;
@@ -141,33 +114,27 @@ a:active {
   vertical-align: middle;
   white-space: nowrap;
 }
-
 .button-3:focus:not(:focus-visible):not(.focus-visible) {
   box-shadow: none;
   outline: none;
 }
-
 .button-3:hover {
   background-color: #2c974b;
 }
-
 .button-3:focus {
   box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
   outline: none;
 }
-
 .button-3:disabled {
   background-color: #94d3a2;
   border-color: rgba(27, 31, 35, .1);
   color: rgba(255, 255, 255, .8);
   cursor: default;
 }
-
 .button-3:active {
   background-color: #298e46;
   box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
-
 .footer {
     font-family: Verdana,Dejavu Sans,Geneva,Tahoma,sans_serif;
     font-size: 12px;
@@ -181,7 +148,6 @@ a:active {
     width: 100%;
     /* flex: 0 0 auto; */
 }
-
 .bottom {
     padding: 8px;
 }
