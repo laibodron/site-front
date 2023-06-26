@@ -397,8 +397,23 @@ a:active {
     flex-direction: column;
 }
 
-.find-content-card-description-cost {
+.bld {
     font-weight: bold;
+}
+
+.find-content-card-description-params {
+    font-size: 12px;
+    padding: 25px 0;
+    display: flex;
+    /* justify-content: ; */
+}
+
+/* .find-content-card-description-params-motor {
+
+} */
+
+.find-content-card-description-params-kpp {
+    margin-left: 120px;
 }
 
 .find-content-card-description-city {
