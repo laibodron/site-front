@@ -409,6 +409,8 @@ a:active {
 .find-content-card-description-favourite {
     font-size: 12px;
     margin-top: 6px;
+    display: flex;
+    
 }
 
 .find-content-card-description-ownerDate {
@@ -515,9 +517,21 @@ a:active {
     color: rgb(184, 184, 184);
     font-size: 16px;
     padding: 0 0 12px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .adding-main-containers-cont-include select {
+    height: 34px;
+    margin: 0;
+    border: 1px solid #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    border-radius: 2px;
+    width: 210px;
+}
+
+.adding-main-containers-cont-header select {
     height: 34px;
     margin: 0;
     border: 1px solid #ccc;
@@ -531,10 +545,12 @@ a:active {
     display: flex;
     margin: 16px 0;
     padding: 0 24px;
+    align-items: center;
 }
 
 .adding-main-containers-cont-include-charName {
     min-width: 128px;
+    max-width: 128px;
 }
 
 .adding-main-containers-cont-include-charValue {
@@ -547,8 +563,22 @@ a:active {
     
 }
 
+.adding-addBtn {
+    height: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
 .adding-main-containers-cont-include-charValue div input {
     margin: 0 8px 8px 0;
+}
+
+.adding-main-containers-cont-include-charValue input[type=text] {
+    height: 32px;
+    width: 100%;
+    margin: 0;
+    padding: 0 9px 0 9px;
+    border: 1px solid #ccc;
 }
 
 .redStar {
@@ -986,4 +1016,43 @@ a:active {
     padding: 5px 20px;
     font-size: 11px;
     margin-left: 18px;
+}
+
+.myAds-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    max-width: 1000px;
+    min-height: 100%;
+}
+
+.myAds-main-title {
+    font-size: 26px;
+    padding: 0 0 20px 0;
+}
+
+.myAds-main-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.myAds-main-cont-tabs {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.myAds-main-cont-tabs-t {
+    padding: 18px 14px 17px 14px;
+    font-size: 12px;
+    cursor: pointer;   
+}
+
+.myAds-main-cont-tabs-t:hover {
+    color: rgb(58, 123, 191);
+}
+
+.selectedTab {
+    border-bottom: 5px solid rgb(71, 140, 200);
 }

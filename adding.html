@@ -12,7 +12,7 @@
             <a href="index.html" class="logo-link"><img src="images/new_logo.svg" alt="logo" class="logo"></a>
             <div class="header-buttons">
                 <div class="header-button"><a href="massenger.html"><img src="images/icons/icon-message.svg" alt="messager" title="Сообщения"></a></div>
-                <div class="header-button"><a href="#">Мои объявления</a></div>
+                <div class="header-button"><a href="myAds.html">Мои объявления</a></div>
                 <div class="header-button"><a href="profile.html">Настройки</a></div>
                 <div class="header-button"><a href="login.html"><img src="images/icons/icon-exit.svg" alt="Log out" title="Выход"></a></div>
             </div>
@@ -32,28 +32,28 @@
         </div>
 
         <div class="adding-main-containers">
-            <div class="adding-main-containers-cont">
+            <!-- <div class="adding-main-containers-cont">
                 <div class="adding-main-containers-cont-header">
                     Выберите тип объявления
                 </div>
 
                 <div class="adding-main-containers-cont-include">
                     <select name="" id="">
-                        <option value="">Продать</option>
                         <option value="">Сдать в аренду</option>
+                        <option value="">Продать</option>
                         <option value="">Заявка на покупку</option>
                         <option value="">Заявка на аренду</option>
                     </select>
                 </div>
-            </div>
+            </div> -->
 
             <div class="adding-main-containers-cont">
                 <div class="adding-main-containers-cont-header">
                     Информация о СТ
                 </div>
 
-                <div class="adding-main-containers-cont-include">
-                        <div class="adding-main-containers-cont-include-charName">
+                <div class="adding-main-containers-cont-include">   
+                    <div class="adding-main-containers-cont-include-charName">
                             <span class="redStar">* </span>Состояние
                         </div>
                         <div class="adding-main-containers-cont-include-charValue">
@@ -98,17 +98,25 @@
 
                 <div class="adding-main-containers-cont-include">
                     <div class="adding-main-containers-cont-include-charName">
-                        Моточасы
+                        <span class="redStar">* </span>Укажите тип спецтехники
                     </div>
                     <div class="adding-main-containers-cont-include-charValue">
                         <input type="text" name="" id="">
                     </div>
                 </div>
-
+                
+                <div class="adding-main-containers-cont-include">
+                    <div class="adding-main-containers-cont-include-charName">
+                        Добавить параметр
+                    </div>
+                    <div class="adding-main-containers-cont-include-charValue">
+                        <img src="images/icons/icon-add-param.svg" alt="" class="adding-addBtn">
+                    </div>
+                </div>
 
             </div>
 
-            <div class="adding-main-containers-cont">
+            <!-- <div class="adding-main-containers-cont">
                 <div class="adding-main-containers-cont-header">
                     Характеристики
                 </div>
@@ -137,14 +145,37 @@
                     </div>
                 </div>
 
-            </div>
+            </div> -->
 
 
             <div class="adding-main-containers-cont">
                 <div class="adding-main-containers-cont-header">
-                    Где ищете
+                    Информация об объявлении
                 </div>
 
+                <div class="adding-main-containers-cont-include">
+                    <div class="adding-main-containers-cont-include-charName">
+                        <span class="redStar">* </span>Название объявления
+                    </div>
+                    <div class="adding-main-containers-cont-include-charValue">
+                        <input type="text" name="" id="">
+                    </div>
+                </div>
+
+                <div class="adding-main-containers-cont-include">
+                    <div class="adding-main-containers-cont-include-charName">
+                        <span class="redStar">* </span>Тип объявления
+                    </div>
+                    <div class="adding-main-containers-cont-include-charValue">
+                        <select name="" id="">
+                            <option value="">Сдать в аренду</option>
+                            <option value="">Продать</option>
+                            <option value="">Заявка на покупку</option>
+                            <option value="">Заявка на аренду</option>
+                        </select>
+                    </div>
+                </div>
+                
                 <div class="adding-main-containers-cont-include">
                     <div class="adding-main-containers-cont-include-charName">
                         <span class="redStar">* </span>Город
@@ -154,11 +185,13 @@
                     </div>
                 </div>
 
-            </div>
-
-            <div class="adding-main-containers-cont">
-                <div class="adding-main-containers-cont-header">
-                    Описание
+                <div class="adding-main-containers-cont-include">
+                    <div class="adding-main-containers-cont-include-charName">
+                        Фотографии
+                    </div>
+                    <div class="adding-main-containers-cont-include-charValue">
+                        <input type="file" name="" id="">
+                    </div>
                 </div>
 
                 <div class="adding-main-containers-cont-include">
@@ -170,13 +203,6 @@
                     </div>
                 </div>
 
-            </div>
-
-            <div class="adding-main-containers-cont">
-                <div class="adding-main-containers-cont-header">
-                    Стоимость и контакты
-                </div>
-
                 <div class="adding-main-containers-cont-include">
                     <div class="adding-main-containers-cont-include-charName">
                         Стоимость
@@ -184,11 +210,17 @@
                     <div class="adding-main-containers-cont-include-charValue">
                         <input type="text" name="" id="">
                     </div>
+                    <select name="" id="" style="width: fit-content; margin-left: 40px;">
+                        <option value="">в час</option>
+                        <option value="">в день</option>
+                        <option value="">за смену</option>
+                        <option value="">договорная</option>
+                    </select>
                 </div>
 
                 <div class="adding-main-containers-cont-include">
                     <div class="adding-main-containers-cont-include-charName">
-                        Контакт
+                        <span class="redStar">* </span>Контакт
                     </div>
                     <div class="adding-main-containers-cont-include-charValue">
                         <input type="text" name="" id="">
@@ -196,6 +228,7 @@
                 </div>
 
             </div>
+
         </div>
         <div>
             <button class="adding-main-btnSubmit">Разместить объявление</button>
