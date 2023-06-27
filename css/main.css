@@ -179,7 +179,7 @@ a:active {
     padding-top: 20px;
     /* padding-left: 20px;
     padding-right: 20px; */
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     /* height: 600px; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
@@ -209,7 +209,7 @@ a:active {
     border-radius: 0 0 10px 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     /* margin: 0 20px 0 20px; */
 }
 
@@ -227,7 +227,7 @@ a:active {
 .find-input input {
     height: 32px;
     width: 100%;
-    margin: 0;
+    margin: 0 0 2px 0;
     padding: 0 9px 0 9px;
     border: 1px solid #ccc;
 }
@@ -408,12 +408,13 @@ a:active {
     /* justify-content: ; */
 }
 
-/* .find-content-card-description-params-motor {
-
-} */
+.find-content-card-description-params-motor {
+    display: flex;
+}
 
 .find-content-card-description-params-kpp {
     margin-left: 120px;
+    display: flex;
 }
 
 .find-content-card-description-city {
@@ -462,6 +463,7 @@ a:active {
     width: 30px;
     height: 17px;
     border-radius: 2px;
+    border: 1px solid #ccc;
     appearance: none;
 }
 
@@ -609,7 +611,7 @@ a:active {
     border-radius: 42px;
     cursor: pointer;
     border: 1px solid #478cc8;
-    font-size: 11px;
+    font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -780,6 +782,28 @@ a:active {
     border-radius: 8px;
     display: flex;
     flex-direction: column;
+}
+
+.adv-main-usercard {
+    display: flex;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    font-size: 14px;
+}
+
+.adv-main-usercard-avatar {
+    max-width: 60px;
+}
+
+.adv-main-usercard-avatar img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.adv-main-usercard-info {
+    width: 100%;
 }
 
 .adv-main-contnr-content-left-owner-title {

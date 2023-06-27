@@ -32,15 +32,26 @@
         <div class="find-addAds">
             <button role="button" onclick="document.location='adding.html'">Добавить объявление</button>
         </div>  
-
+        
         <div class="find-criteria">
+            <div class="find-input" style="width: 100%; margin-right: 0;">
+                <div class="find-input-label">Тип объявления</div>
+                <select class="find-input-select" name="" id="">
+                    <option value="">Аренда</option>
+                    <option value="">Продажа</option>
+                    <option value="">Заявки на аренду</option>
+                    <option value="">Заявки на покупку</option>
+                </select>
+            </div>
+
             <div class="find-input">
                 <div class="find-input-label">Марка</div>
-                <input type="text" placeholder="Например, УАЗ">
+                <input type="text" placeholder="Например, Caterpillar">
+                
             </div>
             <div class="find-input">
                 <div class="find-input-label">Модель</div>
-                <input type="text" placeholder="Например, 2879">
+                <input type="text" placeholder="Например, 320DL">
             </div>
             <div class="find-input">
                 <div class="find-input-label">Город</div>
@@ -54,28 +65,18 @@
                     <option value="">Прицепы</option>
                     <option value="">Полуприцепы</option>
                     <option value="">Автопоезда</option>
-                    <option value="">Автобусы</option>
                     <option value="">Автокраны</option>
                     <option value="">Экскаваторы</option>
                     <option value="">Бульдозеры</option>
                     <option value="">Погрузчики</option>
                     <option value="">Тягачи</option>
+                    <option value="">Автобусы</option>
                     <option value="">Грузовики</option>
-                    <option value="">Спецтехника (другое)</option>
+                    <option value="">Другое</option>
                 </select>
             </div>
             <div class="find-input">
                 <div class="find-input-label">Год выпуска</div>
-                <input type="text" placeholder="от">
-                <input type="text" placeholder="до">
-            </div>
-            <div class="find-input">
-                <div class="find-input-label">Грузоподъемность, т</div>
-                <input type="text" placeholder="от">
-                <input type="text" placeholder="до">
-            </div>
-            <div class="find-input">
-                <div class="find-input-label">Моточасы, км</div>
                 <input type="text" placeholder="от">
                 <input type="text" placeholder="до">
             </div>
@@ -94,6 +95,15 @@
                 <input class="find-input-checkbox" type="checkbox" name="driver" id="driver">
                 <label for="driver">Аренда с водителем</label>
             </div>
+
+            <div class="adding-main-containers-cont-include" style="padding-left: 12px; font-size: 12px;">
+                <div class="adding-main-containers-cont-include-charName">
+                    Добавить критерий
+                </div>
+                <div class="adding-main-containers-cont-include-charValue">
+                    <img src="images/icons/icon-add-param.svg" alt="" class="adding-addBtn">
+                </div>
+            </div>
         </div>
         <div class="find-button">
             <div class="find-button-clear">
@@ -101,7 +111,7 @@
                     Очистить
                 </span>
             </div>
-            <button class="button-3" role="button">Найти</button>
+            <button class="button-3" role="button">Найти объявления</button>
         </div>
 
         <div class="find-content">
@@ -156,9 +166,17 @@
 
                                 <div class="find-content-card-description-params">
                                     <div class="find-content-card-description-params-motor">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" style="margin-right: 6px;">
+                                            <path d="M14.125 6.83332C13.6425 6.83332 13.25 7.22582 13.25 7.70832V8.58332H12.6667V7.4873C12.6667 7.18026 12.5422 6.87948 12.3249 6.66243L11.6709 6.00845C11.4538 5.79112 11.1531 5.66665 10.846 5.66665H9.16665V4.5H10.0416C10.5242 4.5 10.9166 4.10751 10.9166 3.625C10.9166 3.14249 10.5242 2.75 10.0416 2.75H6.54165C6.05914 2.75 5.66665 3.14249 5.66665 3.625C5.66665 4.10751 6.05914 4.5 6.54165 4.5H7.41665V5.66668H6.32063C6.01359 5.66668 5.7128 5.79114 5.49575 6.00847L4.67087 6.83335H4.2083C3.72579 6.83335 3.3333 7.22584 3.3333 7.70835V8.58335H2.75V7.70835C2.75 7.22584 2.35751 6.83335 1.875 6.83335C1.39249 6.83335 1 7.22584 1 7.70835V11.2084C1 11.6909 1.39249 12.0834 1.875 12.0834C2.35751 12.0834 2.75 11.6909 2.75 11.2084V10.3334H3.33332V11.2084C3.33332 11.6909 3.72582 12.0834 4.20832 12.0834H4.6709L5.49578 12.9082C5.71283 13.1256 6.01361 13.25 6.32066 13.25H10.2627C10.5697 13.25 10.8705 13.1256 11.0876 12.9082L12.3249 11.6709C12.5422 11.4539 12.6667 11.1531 12.6667 10.846V10.3334H13.25V11.2084C13.25 11.6909 13.6425 12.0834 14.125 12.0834C14.6075 12.0834 15 11.6909 15 11.2084V7.70835C15 7.22584 14.6075 6.83332 14.125 6.83332Z" fill="#CCCCCC"/>
+                                        </svg>
                                         дизельный
                                     </div>
                                     <div class="find-content-card-description-params-kpp">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" style="margin-right: 6px;">
+                                            <path d="M11.25 11.0352C11.25 10.3567 10.698 9.80469 10.0195 9.80469H5.64453C4.96605 9.80469 4.41406 10.3567 4.41406 11.0352V12.295H11.25V11.0352Z" fill="#CCCCCC"/>
+                                            <path d="M4.00391 12.2656H11.6602C12.4894 12.2656 13.1641 12.9403 13.1641 13.7695V14.5898C13.1641 14.8164 12.9804 15 12.7539 15H2.91016C2.68364 15 2.5 14.8164 2.5 14.5898V13.7695C2.5 12.9403 3.17465 12.2656 4.00391 12.2656Z" fill="#CCCCCC"/>
+                                            <path d="M8.92578 5.95411C9.83636 5.5328 10.4297 4.6202 10.4297 3.59766C10.4297 2.16531 9.26438 1 7.83203 1C6.39968 1 5.23438 2.16531 5.23438 3.59766C5.23438 4.6202 5.82771 5.5328 6.73828 5.95411V9.98438H8.92578V5.95411Z" fill="#CCCCCC"/>
+                                        </svg>
                                         КПП автоматическая
                                     </div>
                                 </div>
@@ -194,7 +212,7 @@
                         <div class="find-content-card-description-ownerDate">
                             
                             <div class="find-content-card-description-owner">
-                                <a href="">СПЕЦЛОГИСТИКА (Фомин Сергей Анатольевич, ИП)</a>
+                                <a href="">СПЕЦСТРОЙ, ООО</a>
                             </div>
 
                             <div class="find-content-card-description-date">
@@ -208,9 +226,9 @@
 
                 <!-- End AD -->
 
-                <div class="find-content-card">
+                <div class="find-content-card" onclick="document.location='adv.html'">
                     <div class="find-content-card-picture">
-                        <img src="images/pictures/truck1.jpg" alt="truck">
+                        <img src="images/pictures/excavator1.jpg" alt="truck">
                     </div>
                     <div class="find-content-card-description">
 
@@ -222,20 +240,27 @@
                                     
                                     <div class="find-content-card-description-name">
                                         <span class="find-content-card-description-name-first">
-                                            Volvo FH
+                                            Komatsu PC300
                                         </span>
                                         <span class="find-content-card-description-name-second">
-                                            Аренда Трала
+                                            Экскаватор
                                         </span>
                                     </div>
 
                                     <div class="find-content-card-description-year">
-                                        2023 г.
+                                        2013 г.
                                     </div>
 
                                 </div>
 
-                                
+                                <div class="find-content-card-description-params">
+                                    <div class="find-content-card-description-params-motor">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" style="margin-right: 6px;">
+                                            <path d="M14.125 6.83332C13.6425 6.83332 13.25 7.22582 13.25 7.70832V8.58332H12.6667V7.4873C12.6667 7.18026 12.5422 6.87948 12.3249 6.66243L11.6709 6.00845C11.4538 5.79112 11.1531 5.66665 10.846 5.66665H9.16665V4.5H10.0416C10.5242 4.5 10.9166 4.10751 10.9166 3.625C10.9166 3.14249 10.5242 2.75 10.0416 2.75H6.54165C6.05914 2.75 5.66665 3.14249 5.66665 3.625C5.66665 4.10751 6.05914 4.5 6.54165 4.5H7.41665V5.66668H6.32063C6.01359 5.66668 5.7128 5.79114 5.49575 6.00847L4.67087 6.83335H4.2083C3.72579 6.83335 3.3333 7.22584 3.3333 7.70835V8.58335H2.75V7.70835C2.75 7.22584 2.35751 6.83335 1.875 6.83335C1.39249 6.83335 1 7.22584 1 7.70835V11.2084C1 11.6909 1.39249 12.0834 1.875 12.0834C2.35751 12.0834 2.75 11.6909 2.75 11.2084V10.3334H3.33332V11.2084C3.33332 11.6909 3.72582 12.0834 4.20832 12.0834H4.6709L5.49578 12.9082C5.71283 13.1256 6.01361 13.25 6.32066 13.25H10.2627C10.5697 13.25 10.8705 13.1256 11.0876 12.9082L12.3249 11.6709C12.5422 11.4539 12.6667 11.1531 12.6667 10.846V10.3334H13.25V11.2084C13.25 11.6909 13.6425 12.0834 14.125 12.0834C14.6075 12.0834 15 11.6909 15 11.2084V7.70835C15 7.22584 14.6075 6.83332 14.125 6.83332Z" fill="#CCCCCC"/>
+                                        </svg>
+                                        дизельный
+                                    </div>
+                                </div>
 
                                 <div class="find-content-card-description-driver">
                                     <span>
@@ -248,12 +273,13 @@
                             <div class="find-content-card-description-costCityFavourite">
                                 
                                 <div class="find-content-card-description-cost">
-                                    договорная
+                                    <span class="bld">4600</span>
+                                    <span>руб/час</span>
                                 </div>
 
                                 <div class="find-content-card-description-city">
                                     <svg viewBox="0 0 17 24" width="10" height="14" color="#8c969d" fill-rule="evenodd"><path fill="#8c969d" fill-rule="evenodd" d="M8.482 0c4.684 0 8.481 3.824 8.481 8.543 0 4.898-3.691 10.284-6.255 12.966A66.344 66.344 0 0 0 8.481 24s-1.116-1.408-2.075-2.452C3.841 18.748 0 13 0 8.543 0 3.824 3.797 0 8.482 0zm0 13.193a4.712 4.712 0 1 0 0-9.423 4.712 4.712 0 0 0 0 9.423z"></path></svg>
-                                    Екатеринбург
+                                    Канск
                                 </div>
 
                                 <div class="find-content-card-description-favourite">
