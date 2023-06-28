@@ -1095,3 +1095,10 @@ a:active {
 .selectedTab {
     border-bottom: 5px solid rgb(71, 140, 200);
 }
+
+.forget-password {
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+    font-size: 13px;
+}
